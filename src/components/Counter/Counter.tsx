@@ -53,7 +53,7 @@ const Counter = () => {
 
   return (
     <div className="mt-5">
-      <h3>Hello Counter!</h3>
+      <h3>Hello counter: useState</h3>
       <strong>Value: {counter}</strong>
       <br />
       <div style={{ display: "flex", justifyContent: "center" }}>

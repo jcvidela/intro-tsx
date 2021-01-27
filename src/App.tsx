@@ -1,5 +1,5 @@
 import "./App.css";
-import { Counter, User } from "./components";
+import { Counter, User, Timer } from "./components";
 
 const App = () => {
   return (
@@ -7,8 +7,9 @@ const App = () => {
       <h1>React + Typescript</h1>
       <hr />
       <Counter />
-      <hr />
       <User />
+      <hr />
+      <Timer />
     </div>
   );
 };
